@@ -5,7 +5,7 @@ using namespace std;
 
 void multab() {
 	for (int ind = 1; ind <= 8; ind++) {
-		cout << "--------" << ind << "´Ü" << "--------" << endl;
+		cout << "--------" << ind << "Â´Ãœ" << "--------" << endl;
 		for (int ind2 = 1; ind2 <= 9; ind2++) {
 			cout << setw(4) << ind << setw(4) << "*" << setw(4) << ind2 << setw(4) << "=" << setw(4) << ind * ind2 << endl;
 		}
